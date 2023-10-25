@@ -2,70 +2,121 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+
+    <title>Летний Дворец</title>
 </head>
 
 <body>
-    <div class="main">
-        <section>
-            <header>
-                <div class="container">
-                    <div class="header">
-                        <img src="./logo.png" width="100px" alt="">
-                        <div class="header-text">
-                            <a href="#">глава</a>
-                            <a href="#">глава</a>
-                            <a href="#">глава</a>
-                            <a href="#">глава</a>
-                            <a href="#">глава</a>
-                            <a href="#">глава</a>
-                        </div>
-                        <svg width="30" height="21" viewBox="0 0 40 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <line y1="0.5" x2="40" y2="0.5" stroke="black" />
-                            <line y1="10.5" x2="40" y2="10.5" stroke="black" />
-                            <line y1="20.5" x2="40" y2="20.5" stroke="black" />
-                        </svg>
-                        <!-- <div>
+    <header class="header">
+        <div class="header-container d-flex justify-content-between">
+            <button class="border-0 bg-transparent">
+                <img src="./assets/logo.png" alt="" />
+            </button>
+            <nav class="d-flex align-items-center gap-4">
+                <a href="#" class="text-decoration-none">Главная</a>
+                <a href="#" class="text-decoration-none">SOFIT EVENT HOUSE</a>
+                <a href="#" class="text-decoration-none">МЕРОПРИЯТИЯ</a>
+                <a href="#" class="text-decoration-none">ТУРИСТАМ</a>
+                <a href="#" class="text-decoration-none">КЕЙТЕРИНГ</a>
+                <a href="#" class="text-decoration-none">ДЛЯ АГЕНТСТВ</a>
+            </nav>
 
-                        </div> -->
-                    </div>
-                </div>
-            </header>
-        </section>
+            <div class="mobile d-flex justify-content-center align-items-center">
+                <button class="burger-menu bg-transparent border-0">
+                    <svg width="40" height="21" viewBox="0 0 40 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="40" y2="0.5" stroke="black" />
+                        <line y1="10.5" x2="40" y2="10.5" stroke="black" />
+                        <line y1="20.5" x2="40" y2="20.5" stroke="black" />
+                    </svg>
+                </button>
+            </div>
+            <div class="mobile-menu show">
+                <a href="#">Главная</a>
+                <a href="#">SOFIT EVENT HOUSE</a>
+                <a href="#">МЕРОПРИЯТИЯ</a>
+                <a href="#">ТУРИСТАМ</a>
+                <a href="#">КЕЙТЕРИНГ</a>
+                <a href="#">КЕЙТЕРИНГ</a>
+                <a href="#">ДЛЯ АГЕНТСТВ</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
         <section>
-            <main>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="box">
-                                <div class="text-wrapper">
-                                    <img src="./assets/Rectangle 2.png" width="450px" alt="">
+            <div class="container-size">
+                <div class="row col-size">
+                    <div class="col-6 col-md-4">
+                        <div class="box box-position">
+                            <img src="./assets/Rectangle 2.png" alt="" />
+                            <div class="slider-box">
+                                <div class="card-title">
+                                    <h3>корпоративы</h3>
+                                    <p>
+                                        Отметьте лучший праздник <br />
+                                        в лучшем дворце Петербурга!
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="box">
-                                <img src="./Rectangle 2 (4).png" width="450px" alt="">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="box box-position">
+                            <img src="./assets/Rectangle 2 (4).png" alt="" />
+                            <div class="slider-box">
+                                <div class="card-title">
+                                    <h3>свадьбы</h3>
+                                    <p>
+                                        Отметьте лучший праздник <br />
+                                        в лучшем дворце Петербурга!
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="box">
-                                <img src="./assets/Rectangle 2 (6).png" width="450px" alt="">
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="box box-position">
+                            <img src="./assets/Rectangle 2 (6).png" alt="" />
+                            <div class="slider-box">
+                                <div class="card-title">
+                                    <h3>званые вечера</h3>
+                                    <p>
+                                        Отметьте лучший праздник <br />
+                                        в лучшем дворце Петербурга!
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </main>
+                <div class="svg-box">
+                    <svg width="174" height="11" viewBox="0 0 174 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-0.5" x2="7.03562" y2="-0.5"
+                            transform="matrix(0.710669 -0.703526 0.710669 0.703526 1 5.99998)" stroke="black" />
+                        <line y1="-0.5" x2="7.03562" y2="-0.5"
+                            transform="matrix(0.710669 0.703526 0.710669 -0.703526 1 4.59996)" stroke="black" />
+                        <line y1="-0.5" x2="7.03562" y2="-0.5"
+                            transform="matrix(-0.710669 -0.703526 -0.710669 0.703526 173 5.99998)" stroke="black" />
+                        <line y1="-0.5" x2="7.03562" y2="-0.5"
+                            transform="matrix(-0.710669 0.703526 -0.710669 -0.703526 173 4.59996)" stroke="black" />
+                        <line x1="15" y1="5.5" x2="159" y2="5.5" stroke="#E5E5E5" />
+                        <line x1="15" y1="5.5" x2="35" y2="5.5" stroke="black" />
+                    </svg>
+                </div>
+            </div>
         </section>
         <section>
-            <div class="container">
-                <div class="text-coffe">
-                    <h1>О ресторане</h1>
+            <div class="container hero-container">
+                <div class="title-container d-flex flex-column align-items-center">
+                    <h2>о ресторане</h2>
                     <svg width="46" height="30" viewBox="0 0 46 30" fill="none" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="46" height="30" fill="url(#pattern0)" />
@@ -77,114 +128,298 @@
                                 xlink:href="data:image/png;base64,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" />
                         </defs>
                     </svg>
-                    <img src="./Rectangle 2 (4).png" alt="">
+                    <p>летний дворец</p>
                 </div>
-                <div class="parent">
-                    <div class="div1">
-                        <img src="./logo.png" alt="">
+                <img src="./assets/video.png" alt="" />
+            </div>
+        </section>
+        <section class="inner-section">
+            <div class="container">
+                <div class="grid-wrapper">
+                    <div class="div1 d-flex flex-column align-items-center justify-content-center">
+                        <img src="./assets/logo.png" alt="" />
                         <p>
-                            Добро пожаловать в Летний Дворец! Всего в 12 километрах от Петербурга, неподалеку от
-                            знаменитых фонтанов и парков Петергофа воплощен в жизнь один из самых грандиозных проектов
-                            event-индустрии России – ресторанный комплекс «Летний Дворец». Открытый в 2009 году, он
-                            объединил под одной крышей современный банкетный зал в исторических дворцовых интерьерах на
-                            800 гостей и собственный кейтеринг.
+                            Добро пожаловать в Летний Дворец! <br />
+                            <br />
+                            Всего в 12 километрах от Петербурга, неподалеку от знаменитых
+                            фонтанов и парков Петергофа воплощен в жизнь один из самых
+                            грандиозных проектов event-индустрии России – ресторанный
+                            комплекс «Летний Дворец». Открытый в 2009 году, он объединил под
+                            одной крышей современный банкетный зал в исторических дворцовых
+                            интерьерах на 800 гостей и собственный кейтеринг.
                         </p>
                     </div>
-                    <div class="div2">
-                        <div class="d-flex">
-                            <svg width="46" height="30" viewBox="0 0 46 30" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect width="46" height="30" fill="url(#pattern0)" />
-                                <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_8_10" transform="scale(0.0217391 0.0333333)" />
-                                    </pattern>
-                                    <image id="image0_8_10" width="46" height="30"
-                                        xlink:href="data:image/png;base64,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" />
-                                </defs>
-                            </svg>
-                            <h3>площадка</h3>
+                    <div class="div2 d-flex flex-column align-items-start">
+                        <div class="logo-wrap d-flex align-items-center">
+                            <img src="./assets/descr1.png" alt="" />
+                            <h4>площадка</h4>
                         </div>
-                        <p>Сочетание классических интерьеров и современных технических возможностей выгодно отличают
-                            Летний Дворец от большинства других исторических площадок города.</p>
+                        <p>
+                            Сочетание классических интерьеров и современных технических
+                            возможностей выгодно отличают Летний Дворец от большинства
+                            других исторических площадок города.
+                        </p>
                     </div>
-                    <div class="div3">
-                        <div class="d-flex">
-                            <svg width="39" height="20" viewBox="0 0 39 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect width="39" height="20" fill="url(#pattern0)" />
-                                <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_8_27" transform="scale(0.025641 0.05)" />
-                                    </pattern>
-                                    <image id="image0_8_27" width="39" height="20"
-                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAJwAAACcBKgmRTwAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMS8yMy8xNAID5ZwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAABfklEQVRIic2WvXHCQBBGnxkCh+7ACj2jhNAZ5xLUgEUJuAKkDiiBa8CiA0MFdmDlRwe4Awc+aVbSnXT82PI3w8yyfNp77Owt3Hy+PitAxYnO+CcqizQDzARQwGpUmq5WwGIyNkWfariySKMROWqVRaqqeCryEWCsYQa8/yHTU5zoXTs5dRjhB/IFuGvlIyC1cR54sALmwAHYeDwfrqQTLk70EVi387blaeeBMJlTN4KEa3dpSL91w1UVSLgZsA0ssI8TrQZd1N1+C6zbkIS7lTdFyjWsl8huhsjx0VG+kXAPwKOn2DJOtHNoz9Qa/xjtqkAu4dkJxU2o0dP1vvleVIHs3L19udQuZgK4+jQPMUm4PaKlVhHnr44QabpfVGHhJdwmTvRGui7ca1IHTz6LE92AK4t0WcHJmWuYoPeW+vI+dWrb+q58ffHG/FfyNWSQcL5Vsb8OS0e+8+pdV8PZ39NQmSuAOM+T+3TK8PxkAsYAuWdW+rSlCZgPnJsD5hvPa2MYnUHcVwAAAABJRU5ErkJggg==" />
-                                </defs>
-                            </svg>
-                            <h3>интерьеры</h3>
+                    <div class="div3 d-flex flex-column align-items-start">
+                        <div class="logo-wrap d-flex align-items-center justify-content-center">
+                            <img src="./assets/descr3.png" alt="" />
+
+                            <h4>технологии</h4>
                         </div>
-                        <p>Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с
-                            использованием традиционных технологий и материалов — мрамора, бронзового литья.</p>
+                        <p>
+                            Возможности «Летнего Дворца» практически безграничны с точки
+                            зрения проведения мероприятий самого разного формата и масштаба.
+                        </p>
                     </div>
-                    <div class="div4">
-                        <div class="d-flex">
-                            <svg width="39" height="20" viewBox="0 0 39 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect width="39" height="20" fill="url(#pattern0)" />
-                                <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_8_27" transform="scale(0.025641 0.05)" />
-                                    </pattern>
-                                    <image id="image0_8_27" width="39" height="20"
-                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAJwAAACcBKgmRTwAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMS8yMy8xNAID5ZwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAABfklEQVRIic2WvXHCQBBGnxkCh+7ACj2jhNAZ5xLUgEUJuAKkDiiBa8CiA0MFdmDlRwe4Awc+aVbSnXT82PI3w8yyfNp77Owt3Hy+PitAxYnO+CcqizQDzARQwGpUmq5WwGIyNkWfariySKMROWqVRaqqeCryEWCsYQa8/yHTU5zoXTs5dRjhB/IFuGvlIyC1cR54sALmwAHYeDwfrqQTLk70EVi387blaeeBMJlTN4KEa3dpSL91w1UVSLgZsA0ssI8TrQZd1N1+C6zbkIS7lTdFyjWsl8huhsjx0VG+kXAPwKOn2DJOtHNoz9Qa/xjtqkAu4dkJxU2o0dP1vvleVIHs3L19udQuZgK4+jQPMUm4PaKlVhHnr44QabpfVGHhJdwmTvRGui7ca1IHTz6LE92AK4t0WcHJmWuYoPeW+vI+dWrb+q58ffHG/FfyNWSQcL5Vsb8OS0e+8+pdV8PZ39NQmSuAOM+T+3TK8PxkAsYAuWdW+rSlCZgPnJsD5hvPa2MYnUHcVwAAAABJRU5ErkJggg==" />
-                                </defs>
-                            </svg>
-                            <h3>интерьеры</h3>
+                    <div class="div4 d-flex flex-column align-items-start">
+                        <div class="logo-wrap d-flex align-items-center justify-content-center">
+                            <img src="./assets/descr2.png" alt="" />
+
+                            <h4>интерьер</h4>
                         </div>
-                        <p>Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с
-                            использованием традиционных технологий и материалов — мрамора, бронзового литья.</p>
+                        <p>
+                            Изысканное внутреннее убранство Летнего Дворца — тонко
+                            выполненная стилизация с использованием традиционных технологий
+                            и материалов — мрамора, бронзового литья.
+                        </p>
                     </div>
-                    <div class="div5">
-                        <div class="d-flex">
-                            <svg width="39" height="20" viewBox="0 0 39 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <rect width="39" height="20" fill="url(#pattern0)" />
-                                <defs>
-                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                        <use xlink:href="#image0_8_27" transform="scale(0.025641 0.05)" />
-                                    </pattern>
-                                    <image id="image0_8_27" width="39" height="20"
-                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAUCAYAAAAOTSQ2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAJwAAACcBKgmRTwAAABZ0RVh0Q3JlYXRpb24gVGltZQAxMS8yMy8xNAID5ZwAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAABfklEQVRIic2WvXHCQBBGnxkCh+7ACj2jhNAZ5xLUgEUJuAKkDiiBa8CiA0MFdmDlRwe4Awc+aVbSnXT82PI3w8yyfNp77Owt3Hy+PitAxYnO+CcqizQDzARQwGpUmq5WwGIyNkWfariySKMROWqVRaqqeCryEWCsYQa8/yHTU5zoXTs5dRjhB/IFuGvlIyC1cR54sALmwAHYeDwfrqQTLk70EVi387blaeeBMJlTN4KEa3dpSL91w1UVSLgZsA0ssI8TrQZd1N1+C6zbkIS7lTdFyjWsl8huhsjx0VG+kXAPwKOn2DJOtHNoz9Qa/xjtqkAu4dkJxU2o0dP1vvleVIHs3L19udQuZgK4+jQPMUm4PaKlVhHnr44QabpfVGHhJdwmTvRGui7ca1IHTz6LE92AK4t0WcHJmWuYoPeW+vI+dWrb+q58ffHG/FfyNWSQcL5Vsb8OS0e+8+pdV8PZ39NQmSuAOM+T+3TK8PxkAsYAuWdW+rSlCZgPnJsD5hvPa2MYnUHcVwAAAABJRU5ErkJggg==" />
-                                </defs>
-                            </svg>
-                            <h3>интерьеры</h3>
+                    <div class="div5 d-flex flex-column align-items-start">
+                        <div class="logo-wrap d-flex align-items-center justify-content-center">
+                            <img src="./assets/descr4.png" alt="" />
+
+                            <h4>оборудование</h4>
                         </div>
-                        <p>Изысканное внутреннее убранство Летнего Дворца — тонко выполненная стилизация с
-                            использованием традиционных технологий и материалов — мрамора, бронзового лить
+                        <p>
+                            Установлен комплект самого современного звукового оборудования,
+                            который приятно удивит даже знатока качественного звука.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid-section">
+            <div class="container">
+                <div class="grid">
+                    <div class="div6 d-flex flex-column justify-content-center align-items-center">
+                        <h4>галерея</h4>
+                        <svg width="46" height="30" viewBox="0 0 46 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="46" height="30" fill="url(#pattern0)" />
+                            <defs>
+                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_8_52" transform="scale(0.0217391 0.0333333)" />
+                                </pattern>
+                                <image id="image0_8_52" width="46" height="30"
+                                    xlink:href="data:image/png;base64,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" />
+                            </defs>
+                        </svg>
+
+                        <p class="short-title">летний дворец</p>
+                    </div>
+                    <div class="div7">
+                        <img src="./assets/Rectangle 2.1 (1).png" alt="" />
+                    </div>
+                    <div class="div8">
+                        <img src="./assets/Rectangle 2.2.png" alt="" />
+                    </div>
+                    <div class="div9">
+                        <img src="./assets/Rectangle 2.3.png" alt="" />
+                    </div>
+                    <div class="div10">
+                        <img src="./assets/Rectangle 2.4 (1).png" alt="" />
+                    </div>
+                    <div class="div11">
+                        <img src="./assets/Rectangle 2.5 (1).png" alt="" />
                     </div>
                 </div>
             </div>
         </section>
         <section>
+            <div class="container-img text-center">
+                <h2>узнайте о нас больше</h2>
+                <button class="border-0">Скачать план</button>
+                <button class="border-0">Скачать презентацию</button>
+            </div>
+        </section>
+        <section class="card-section">
             <div class="container">
-                <div class="parent-1">
-                    <div class="div6">
-                        <img src="./assets/Group (1).png" width="200px" alt="">
+                <div class="row">
+                    <div class="col-6 col-wrap">
+                        <div class="box">
+                            <h2 class="text">хотите провести мероприятие?</h2>
+                            <p class="subtitle">
+                                Или у вас остались вопросы, на которые мы сможем вам ответить
+                                в процессе разговора - напишите нам. Мы открыты для диалога!
+                            </p>
+                            <div class="col-wrapper d-flex">
+                                <div class="contact-wrapper d-flex flex-column">
+                                    <h3>ресторан</h3>
+                                    <div class="contact-btn d-flex">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.0976 6.57446C12.9834 6.57446 11.2625 8.29534 11.2625 10.4096C11.2625 12.5238 12.9834 14.2447 15.0976 14.2447C17.2119 14.2447 18.9328 12.5238 18.9328 10.4096C18.9328 8.29534 17.2119 6.57446 15.0976 6.57446ZM15.0976 13.149C13.5871 13.149 12.3583 11.9201 12.3583 10.4096C12.3583 8.8991 13.5871 7.67021 15.0976 7.67021C16.6081 7.67021 17.837 8.8991 17.837 10.4096C17.837 11.9201 16.6081 13.149 15.0976 13.149Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M22.4302 3.07741C20.4458 1.09301 17.8073 0 15.001 0C12.1943 0 9.55626 1.09301 7.57186 3.07741C3.89945 6.74927 3.44307 13.658 6.58349 17.8437L15.001 30L23.406 17.8607C26.559 13.658 26.1026 6.74927 22.4302 3.07741ZM22.5173 17.2203L15.001 28.0748L7.4727 17.2033C4.62429 13.4054 5.03246 7.16621 8.3471 3.85211C10.1244 2.0748 12.4874 1.09575 15.001 1.09575C17.5147 1.09575 19.8777 2.0748 21.6555 3.85211C24.9702 7.16621 25.3783 13.4054 22.5173 17.2203Z"
+                                                fill="#D1A954" />
+                                        </svg>
+                                        <p class="text-decoration-underline">
+                                            Санкт-Петербургское <br />шоссе, д 130, к. 7
+                                        </p>
+                                    </div>
+                                    <div class="contact-btn d-flex">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_14_12)">
+                                                <path
+                                                    d="M22.7627 0H7.23709C6.18978 0 5.33783 0.852011 5.33783 1.89932V28.1007C5.33783 29.148 6.18984 30.0001 7.23715 30.0001H22.7627C23.81 30.0001 24.662 29.1481 24.662 28.1007V1.89932C24.6619 0.852011 23.81 0 22.7627 0ZM6.28958 4.77375H23.7102V24.6138H6.28958V4.77375ZM7.23709 0.951755H22.7627C23.2851 0.951755 23.7102 1.37681 23.7102 1.89932V4.13924H6.28958V1.89932C6.28958 1.37681 6.71464 0.951755 7.23709 0.951755ZM22.7627 29.0482H7.23709C6.71464 29.0482 6.28952 28.6232 6.28952 28.1007V25.2483H23.7102V28.1007C23.7102 28.6232 23.2851 29.0482 22.7627 29.0482Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M14.9998 25.6689C14.1404 25.6689 13.4412 26.3682 13.4412 27.2276C13.4412 28.087 14.1404 28.7862 14.9998 28.7862C15.8592 28.7862 16.5584 28.087 16.5584 27.2276C16.5584 26.3682 15.8593 25.6689 14.9998 25.6689ZM14.9998 28.1517C14.4903 28.1517 14.0757 27.7371 14.0757 27.2276C14.0757 26.718 14.4903 26.3034 14.9998 26.3034C15.5094 26.3034 15.9239 26.718 15.9239 27.2276C15.9239 27.7371 15.5094 28.1517 14.9998 28.1517Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M12.8426 3.02318H17.1573C17.3325 3.02318 17.4745 2.88111 17.4745 2.70592C17.4745 2.53074 17.3325 2.38867 17.1573 2.38867H12.8426C12.6674 2.38867 12.5254 2.53074 12.5254 2.70592C12.5254 2.88111 12.6674 3.02318 12.8426 3.02318Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M11.7007 3.02318C11.7838 3.02318 11.8656 2.98955 11.9247 2.93054C11.9837 2.87089 12.0179 2.78968 12.0179 2.70592C12.0179 2.62217 11.9837 2.54095 11.9247 2.48131C11.8656 2.4223 11.7837 2.38867 11.7007 2.38867C11.6169 2.38867 11.5356 2.4223 11.4761 2.48131C11.4171 2.54032 11.3834 2.62217 11.3834 2.70592C11.3834 2.78968 11.4171 2.87089 11.4761 2.93054C11.5351 2.98955 11.6169 3.02318 11.7007 3.02318Z"
+                                                    fill="#D1A954" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_14_12">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p>+7 (812) 210 67 95</p>
+                                    </div>
+                                    <div class="contact-btn d-flex align-items-center">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17.8123 15.2592C17.7251 15.2592 17.6378 15.2272 17.5697 15.1627L13.4878 11.3333C13.3452 11.2 13.3381 10.9751 13.4722 10.8325C13.6063 10.6885 13.8298 10.6821 13.9738 10.8169L18.0557 14.6462C18.1983 14.7796 18.2054 15.0045 18.0713 15.1471C18.001 15.2216 17.9074 15.2592 17.8123 15.2592Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M4.18739 15.2593C4.09304 15.2593 3.99869 15.2217 3.92846 15.1472C3.79438 15.0047 3.80147 14.7798 3.94406 14.6464L8.02739 10.817C8.17069 10.6837 8.39557 10.6894 8.52894 10.8327C8.66301 10.9752 8.65592 11.2001 8.51333 11.3335L4.43001 15.1628C4.3619 15.2274 4.27465 15.2593 4.18739 15.2593Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M20.2265 18.8196H1.77351C0.79595 18.8196 0 18.0244 0 17.0461V4.95295C0 3.97468 0.79595 3.17944 1.77351 3.17944H20.2265C21.2041 3.17944 22 3.97468 22 4.95295V17.0461C22 18.0244 21.2041 18.8196 20.2265 18.8196ZM1.77351 3.88885C1.18683 3.88885 0.709403 4.36627 0.709403 4.95295V17.0461C0.709403 17.6328 1.18683 18.1102 1.77351 18.1102H20.2265C20.8132 18.1102 21.2906 17.6328 21.2906 17.0461V4.95295C21.2906 4.36627 20.8132 3.88885 20.2265 3.88885H1.77351Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M10.9999 12.7819C10.5281 12.7819 10.0564 12.6251 9.69744 12.3122L0.588705 4.36622C0.441149 4.23781 0.425543 4.01364 0.553944 3.86538C0.683765 3.71782 0.907227 3.70434 1.05478 3.83133L10.1635 11.7766C10.6168 12.1718 11.383 12.1718 11.8356 11.7766L20.933 3.8441C21.0798 3.71569 21.3033 3.72988 21.4338 3.87815C21.5622 4.02641 21.5473 4.24987 21.3997 4.37899L12.3024 12.3115C11.9427 12.6251 11.4717 12.7819 10.9999 12.7819Z"
+                                                fill="#D1A954" />
+                                        </svg>
+                                        <p>hello@summerpalace.ru</p>
+                                    </div>
+                                </div>
+                                <div class="contact-wrapper d-flex flex-column">
+                                    <h3>офис</h3>
+                                    <div class="contact-btn d-flex">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.0976 6.57446C12.9834 6.57446 11.2625 8.29534 11.2625 10.4096C11.2625 12.5238 12.9834 14.2447 15.0976 14.2447C17.2119 14.2447 18.9328 12.5238 18.9328 10.4096C18.9328 8.29534 17.2119 6.57446 15.0976 6.57446ZM15.0976 13.149C13.5871 13.149 12.3583 11.9201 12.3583 10.4096C12.3583 8.8991 13.5871 7.67021 15.0976 7.67021C16.6081 7.67021 17.837 8.8991 17.837 10.4096C17.837 11.9201 16.6081 13.149 15.0976 13.149Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M22.4302 3.07741C20.4458 1.09301 17.8073 0 15.001 0C12.1943 0 9.55626 1.09301 7.57186 3.07741C3.89945 6.74927 3.44307 13.658 6.58349 17.8437L15.001 30L23.406 17.8607C26.559 13.658 26.1026 6.74927 22.4302 3.07741ZM22.5173 17.2203L15.001 28.0748L7.4727 17.2033C4.62429 13.4054 5.03246 7.16621 8.3471 3.85211C10.1244 2.0748 12.4874 1.09575 15.001 1.09575C17.5147 1.09575 19.8777 2.0748 21.6555 3.85211C24.9702 7.16621 25.3783 13.4054 22.5173 17.2203Z"
+                                                fill="#D1A954" />
+                                        </svg>
+                                        <p class="text-decoration-underline">
+                                            ст. м. «Лиговский проспект», <br />
+                                            ул. Черняховского, д. 75
+                                        </p>
+                                    </div>
+                                    <div class="contact-btn d-flex">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_14_12)">
+                                                <path
+                                                    d="M22.7627 0H7.23709C6.18978 0 5.33783 0.852011 5.33783 1.89932V28.1007C5.33783 29.148 6.18984 30.0001 7.23715 30.0001H22.7627C23.81 30.0001 24.662 29.1481 24.662 28.1007V1.89932C24.6619 0.852011 23.81 0 22.7627 0ZM6.28958 4.77375H23.7102V24.6138H6.28958V4.77375ZM7.23709 0.951755H22.7627C23.2851 0.951755 23.7102 1.37681 23.7102 1.89932V4.13924H6.28958V1.89932C6.28958 1.37681 6.71464 0.951755 7.23709 0.951755ZM22.7627 29.0482H7.23709C6.71464 29.0482 6.28952 28.6232 6.28952 28.1007V25.2483H23.7102V28.1007C23.7102 28.6232 23.2851 29.0482 22.7627 29.0482Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M14.9998 25.6689C14.1404 25.6689 13.4412 26.3682 13.4412 27.2276C13.4412 28.087 14.1404 28.7862 14.9998 28.7862C15.8592 28.7862 16.5584 28.087 16.5584 27.2276C16.5584 26.3682 15.8593 25.6689 14.9998 25.6689ZM14.9998 28.1517C14.4903 28.1517 14.0757 27.7371 14.0757 27.2276C14.0757 26.718 14.4903 26.3034 14.9998 26.3034C15.5094 26.3034 15.9239 26.718 15.9239 27.2276C15.9239 27.7371 15.5094 28.1517 14.9998 28.1517Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M12.8426 3.02318H17.1573C17.3325 3.02318 17.4745 2.88111 17.4745 2.70592C17.4745 2.53074 17.3325 2.38867 17.1573 2.38867H12.8426C12.6674 2.38867 12.5254 2.53074 12.5254 2.70592C12.5254 2.88111 12.6674 3.02318 12.8426 3.02318Z"
+                                                    fill="#D1A954" />
+                                                <path
+                                                    d="M11.7007 3.02318C11.7838 3.02318 11.8656 2.98955 11.9247 2.93054C11.9837 2.87089 12.0179 2.78968 12.0179 2.70592C12.0179 2.62217 11.9837 2.54095 11.9247 2.48131C11.8656 2.4223 11.7837 2.38867 11.7007 2.38867C11.6169 2.38867 11.5356 2.4223 11.4761 2.48131C11.4171 2.54032 11.3834 2.62217 11.3834 2.70592C11.3834 2.78968 11.4171 2.87089 11.4761 2.93054C11.5351 2.98955 11.6169 3.02318 11.7007 3.02318Z"
+                                                    fill="#D1A954" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_14_12">
+                                                    <rect width="30" height="30" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                        <p>+7 (812) 210 67 95</p>
+                                    </div>
+                                    <div class="contact-btn d-flex align-items-center">
+                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M17.8123 15.2592C17.7251 15.2592 17.6378 15.2272 17.5697 15.1627L13.4878 11.3333C13.3452 11.2 13.3381 10.9751 13.4722 10.8325C13.6063 10.6885 13.8298 10.6821 13.9738 10.8169L18.0557 14.6462C18.1983 14.7796 18.2054 15.0045 18.0713 15.1471C18.001 15.2216 17.9074 15.2592 17.8123 15.2592Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M4.18739 15.2593C4.09304 15.2593 3.99869 15.2217 3.92846 15.1472C3.79438 15.0047 3.80147 14.7798 3.94406 14.6464L8.02739 10.817C8.17069 10.6837 8.39557 10.6894 8.52894 10.8327C8.66301 10.9752 8.65592 11.2001 8.51333 11.3335L4.43001 15.1628C4.3619 15.2274 4.27465 15.2593 4.18739 15.2593Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M20.2265 18.8196H1.77351C0.79595 18.8196 0 18.0244 0 17.0461V4.95295C0 3.97468 0.79595 3.17944 1.77351 3.17944H20.2265C21.2041 3.17944 22 3.97468 22 4.95295V17.0461C22 18.0244 21.2041 18.8196 20.2265 18.8196ZM1.77351 3.88885C1.18683 3.88885 0.709403 4.36627 0.709403 4.95295V17.0461C0.709403 17.6328 1.18683 18.1102 1.77351 18.1102H20.2265C20.8132 18.1102 21.2906 17.6328 21.2906 17.0461V4.95295C21.2906 4.36627 20.8132 3.88885 20.2265 3.88885H1.77351Z"
+                                                fill="#D1A954" />
+                                            <path
+                                                d="M10.9999 12.7819C10.5281 12.7819 10.0564 12.6251 9.69744 12.3122L0.588705 4.36622C0.441149 4.23781 0.425543 4.01364 0.553944 3.86538C0.683765 3.71782 0.907227 3.70434 1.05478 3.83133L10.1635 11.7766C10.6168 12.1718 11.383 12.1718 11.8356 11.7766L20.933 3.8441C21.0798 3.71569 21.3033 3.72988 21.4338 3.87815C21.5622 4.02641 21.5473 4.24987 21.3997 4.37899L12.3024 12.3115C11.9427 12.6251 11.4717 12.7819 10.9999 12.7819Z"
+                                                fill="#D1A954" />
+                                        </svg>
+                                        <p>hello@summerpalace.ru</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="div7">
-                        <img src="./assets/Rectangle 2.1 (1).png" alt="">
+                    <div class="col-6 col-wrap">
+                        <div class="box input-wrapper d-flex flex-column align-items-start justify-content-center">
+                            <input class="border-0" type="text" placeholder="Ваше имя" />
+                            <input class="border-0" type="text" placeholder="Ваш e-mail" />
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                            <button class="border-0">отправить</button>
+                        </div>
                     </div>
-                    <div class="div8">
-                        <img src="./Rectangle 2.2.png" alt="">
-                    </div>
-                    <div class="div9"> 
-                        <img src="./Rectangle 2.4.png" alt="">
-                    </div>
-                    <div class="div10"> </div>
                 </div>
             </div>
         </section>
-    </div>
+        <section class="social-section">
+            <div class="social-title">
+                <h2 class="text mb-2">наш instagram</h2>
+                <svg width="46" height="30" viewBox="0 0 46 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="46" height="30" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_14_53" transform="scale(0.0217391 0.0333333)" />
+                        </pattern>
+                        <image id="image0_14_53" width="46" height="30"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <p class="short-title">летний дворец</p>
+            </div>
+            <div class="icon-container d-flex">
+                <img src="./assets/Rectangle 2.2.png" alt="" width="310px" />
+                <img src="./assets/Rectangle 2.1 (1).png" alt="" width="310px" />
+                <img src="./assets/Rectangle 2.2.png" alt="" width="310px" />
+                <img src="./assets/Rectangle 2.1 (1).png" alt="" width="310px" />
+                <img src="./assets/Rectangle 2.2.png" alt="" width="310px" />
+                <img src="./assets/Rectangle 2.1 (1).png" alt="" width="310px" />
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container d-flex justify-content-between">
+            <p>Copyright (с) 2019 Ресторан “Летний дворец”</p>
+            <p>Facebook — Vkontakte — Instagram</p>
+        </div>
+    </footer>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,349 @@
+@media (max-width: 1440px) {
+    .icon-container img {
+        width: 240px;
+    }
+
+    .container-size .row {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-column-gap: 30px;
+    }
+
+    .grid img {
+        width: 100%;
+    }
+
+    .icon-container img {
+        width: 170.5px;
+    }
+
+    .card-title {
+        padding: unset;
+    }
+
+    .card-title h3 {
+        font-size: 20px;
+    }
+
+    .card-title p {
+        font-size: 11px;
+        margin: 8px 0;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    .header-container {
+        padding: 0 20px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .div6 h4 {
+        font-size: 18px;
+    }
+
+    .container-img h2 {
+        font-size: 30px;
+    }
+
+    .container-img button {
+        font-size: 14px;
+    }
+
+    .container-img button:last-child {
+        width: 300px;
+        padding: 20px 30px;
+        margin-left: 60px;
+    }
+
+    .col-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-wrap .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-wrapper {
+        gap: 100px;
+    }
+
+    .input-wrapper {
+        padding: 50px 0 0 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .icon-container {
+        flex-wrap: wrap;
+    }
+
+    .icon-container img {
+        width: 153.5px;
+    }
+
+    .social-title {
+        padding: 80px;
+    }
+
+    .slider-box {
+        padding: 8px 15px;
+    }
+
+    .card-title h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .card-title p {
+        font-size: 8px;
+    }
+
+    nav a {
+        font-size: 8px;
+    }
+
+    nav a:nth-child(2) {
+        font-size: 8px;
+    }
+
+    button svg {
+        width: 20px;
+    }
+
+    button img {
+        width: 65%;
+    }
+
+    .title-container {
+        padding: 60px;
+    }
+
+    .title-container h2 {
+        font-size: 24px;
+    }
+
+    .grid {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .grid-section {
+        padding: 60px 0;
+    }
+
+    .container-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .container-img button {
+        margin-top: 20px;
+    }
+
+    .container-img button:last-child {
+        margin-left: unset;
+    }
+
+    .footer .container {
+        justify-content: space-around !important;
+    }
+
+    .grid-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div1 p {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 426px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    nav a {
+        display: none !important;
+    }
+
+    .col-wrapper {
+        flex-direction: column;
+    }
+
+    .row .col-md-4 {
+        margin-top: 15px;
+    }
+
+    .inner-section {
+        margin-top: -120px;
+        padding: 150px 0 60px 0;
+    }
+
+    .mobile-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        bottom: 0;
+        background-color: #f9f7f7;
+        display: block;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .mobile-menu a {
+        color: #d1a954;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.65px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .div6 h4 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .short-title {
+        font-size: 7px;
+    }
+
+    .grid-wrapper h4 {
+        font-size: 14px;
+    }
+
+    .grid-wrapper p {
+        font-size: 11px;
+    }
+
+    .grid {
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    .container-img h2 {
+        font-size: 18px;
+    }
+
+    .container-img button {
+        font-size: 9px;
+        width: 200px;
+    }
+
+    .container-img button:last-child {
+        width: 250px;
+    }
+
+    .col-wrap .box {
+        text-align: center;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+
+    .social-title {
+        padding: 30px;
+    }
+
+    .icon-container img {
+        width: 141.5px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card-section {
+        padding: 60px 0;
+    }
+
+    .input-wrapper button {
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .svg-box svg {
+        width: 130px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 376px) {
+    .icon-container img {
+        width: 125px;
+    }
+
+    .input-wrapper input {
+        font-size: 12px;
+    }
+
+    .input-wrapper textarea {
+        font-size: 12px;
+    }
+
+    .col-size .col-6 {
+        width: 100%;
+    }
+
+    button img {
+        width: 50%;
+    }
+}
+
+@media (max-width: 321px) {
+    .title-container h2 {
+        font-size: 16px;
+    }
+
+    .col-size .col-6 {
+        width: 100%;
+    }
+
+    button img {
+        width: 50%;
+    }
+
+    .icon-container img {
+        width: 106.5px;
+    }
+}
